@@ -3,8 +3,6 @@ with open("input.txt") as data:
 
 n_col = len(data[0])
 n_row = len(data)
-n_edge_visible = 4*n_row - 4
-n_interior_visible = 0
 
 # index strategy: data[row][col]
 
